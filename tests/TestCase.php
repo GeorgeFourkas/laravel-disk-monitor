@@ -3,8 +3,8 @@
 namespace Laraveldiskmonitor\LaravelDiskMonitor\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Laraveldiskmonitor\LaravelDiskMonitor\LaravelDiskMonitorServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

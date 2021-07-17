@@ -2,9 +2,9 @@
 
 namespace Laraveldiskmonitor\LaravelDiskMonitor;
 
+use Laraveldiskmonitor\LaravelDiskMonitor\Commands\LaravelDiskMonitorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Laraveldiskmonitor\LaravelDiskMonitor\Commands\LaravelDiskMonitorCommand;
 
 class LaravelDiskMonitorServiceProvider extends PackageServiceProvider
 {
