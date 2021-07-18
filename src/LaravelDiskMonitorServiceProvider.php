@@ -10,7 +10,6 @@ class LaravelDiskMonitorServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-
         $package
             ->name('laravel-disk-monitor')
             ->hasConfigFile()
